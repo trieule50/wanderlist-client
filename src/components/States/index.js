@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const States = () => {
 
@@ -26,12 +27,14 @@ const States = () => {
                 {states.map((state, id) => {
                     return(
                         <Col>
-                        <Card>
-                        <Card.Img variant="top" src={state.state_flag} />
-                        <Card.Body>
-                        <Card.Title>{state.name}</Card.Title>
-                        </Card.Body>
-                        </Card>
+                        <Link to={`states/${state.id}`}>
+                            <Card>
+                            <Card.Img variant="top" src={state.state_flag} />
+                            <Card.Body>
+                            <Card.Title>{state.name}</Card.Title>
+                            </Card.Body>
+                            </Card>
+                            </Link>
                         </Col>
                         )
                        })}
