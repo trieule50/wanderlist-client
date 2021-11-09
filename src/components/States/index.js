@@ -37,7 +37,7 @@ const States = () => {
                             </Link>
                         </Col>
                         )
-                       })}
+                })}
             </Row>
         </div>
     )
