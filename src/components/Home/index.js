@@ -10,30 +10,22 @@ const Home = () => {
                 </div>
             </div>
             <div className='subNav-container'>
-                <a href='/about'>
+                <a href='/about' style={{textDecoration:'none'}}>
                     <div className='subNav-item'>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
+                        <Card style={{ width: '22rem' }}>
+                            <Card.Img variant="top" src="https://img.freepik.com/free-vector/about-us-website-banner-concept-with-thin-line-flat-design_56103-96.jpg?size=626&ext=jpg" style={{height:'13rem'}}/>
+                            <Card.Body style={{textAlign:'center'}}>
+                                <Card.Title style={{color:'black', fontSize:'1.5rem', fontWeight:'bold'}}>Learn More</Card.Title>
                             </Card.Body>
                         </Card>
                     </div>
                 </a>
-                <a href='/states'>
+                <a href='/states' style={{textDecoration:'none'}}>
                     <div className='subNav-item'>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
+                        <Card style={{ width: '22rem' }}>
+                            <Card.Img variant="top" src="https://i0.wp.com/cameltravel.co.uk/wp-content/uploads/2018/08/USA-Travel-Specialists.jpeg?fit=1024%2C768&ssl=1" style={{height:'13rem'}}/>
+                            <Card.Body style={{textAlign:'center'}}>
+                                <Card.Title style={{color:'black', fontSize:'1.5rem', fontWeight:'bold'}}>Start Wandering</Card.Title>
                             </Card.Body>
                         </Card>
                     </div>
