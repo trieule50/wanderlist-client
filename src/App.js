@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import States from './components/States';
 import StateDetails from './components/StateDetails';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/' exact component={Home}/>
         </Switch>
       </main>
+      <Footer/>
     </div>
   );
 }
