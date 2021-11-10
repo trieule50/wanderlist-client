@@ -1,1 +1,21 @@
+.landing-img{
+  background-image: url(https://www.outsideonline.com/wp-content/uploads/2021/07/thruhiking-couple.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 60vh;
+}
 
+.landing-text{
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.landing-text h1, small{
+  font-weight: bold;
+}
