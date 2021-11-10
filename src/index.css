@@ -13,9 +13,9 @@
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
 }
 
 .landing-text h1, small{
   font-weight: bold;
+  color: rgb(21,27,61);
 }
