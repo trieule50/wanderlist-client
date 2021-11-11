@@ -1,7 +1,9 @@
 const About = () =>{
     return(
         <div>
-            <h1>About</h1>
+            <div className='about-img'>
+                <h1 className='about-text'>About</h1>
+            </div>
         </div>
     )
 }

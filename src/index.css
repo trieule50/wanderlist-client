@@ -33,3 +33,21 @@
   margin-top: 1rem;
   padding: 1rem;
 }
+
+.about-img{
+  background-image: url(https://images.theoutbound.com/uploads/1443118254562/b6ja6too83xzjjor/3cc89e0e04bb3c6f1113ba05e33de82d?w=680&auto=format&dpr=2&auto=compress);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 30vh;
+}
+
+.about-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
