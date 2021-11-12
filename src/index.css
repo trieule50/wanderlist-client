@@ -54,10 +54,9 @@
 
 .hiker-img-container{
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .hiker-img-item img{
-  height: 10rem;
+  height: 15rem;
 }
